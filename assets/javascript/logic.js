@@ -66,6 +66,8 @@ $(document).ready(function(){
         ' </td><td>' + newFreq +
         ' </td><td>' + catchTrain +
         ' </td><td>' + tMinutesTillTrain + ' </td></tr>');
+    
+    $("#all-display").css('background', 'white');
   
       // Clear input fields
       $("#trainName, #destination, #firstTrain, #interval").val("");
